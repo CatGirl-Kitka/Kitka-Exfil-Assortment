@@ -1,29 +1,28 @@
-
 {
-  "6aa0a4dac717fd285663d244": {
+  "6a9d828a83e97f2fa57f6a95": {
 
-    "itemTplToClone": "5c1265fc86f7743f896a21c2",
-    "parentId": "57864a66245977548f04a81f",
-    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "itemTplToClone": "59e3647686f774176a362507",
+    "parentId": "5448eb774bdc2d0a728b4567",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
 
     "overrideProperties": {
       "QuestItem": false,  
-      "ExaminedByDefault": true,
+      "ExaminedByDefault": false,
 
       "Prefab": {
 
-        "path": "Barter/Valuables/Electronics/gz_expensivesmartphone.bundle",
+        "path": "Special/gz_metalsuitcase.bundle",
         "rcid": ""
 
       },
 
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.35,
+      "Width": 2,
+      "Height": 2,
+      "Weight": 10,
 
-      "BackgroundColor": "violet",
+      "BackgroundColor": "blue",
       "DiscardLimit": 1,
-      "ExamineExperience": 100,
+      "ExamineExperience": 150,
       "ExamineTime": 1,
       "ExtraSizeDown": 0,
       "ExtraSizeForceAdd": false,
@@ -36,15 +35,18 @@
       "IsLockedafterEquip": false,
       "IsSecretExitRequirement": false,
       "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
+      "IsUnbuyable": true,
       "IsUndiscardable": false,
       "IsUngivable": false,
       "IsUnremovable": false,
       "IsUnsaleable": false,
+      "ItemSound": "container",
       "LeftHandItem": false,
-      "LootExperience": 100,
+      "LootExperience": 110,
       "NotShownInSlot": false,
       "MergesWithChildren": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
 
 
       "Grids": []
@@ -53,15 +55,15 @@
 
     "locales": {
       "en": {
-        "name": "Expensive Smartphone",
-        "shortName": "EPhone",
-        "description": "A slider-style expensive smartphone."
+        "name": "Locked Crate",
+        "shortName": "Lck. Crate",
+        "description": "NEED TO EDIT"
       }
     },
-    "fleaPriceRoubles": 57459,
 
-    "handbookPriceRoubles": 33249,
+    "fleaPriceRoubles": 0,
 
+    "handbookPriceRoubles": 90000,
 
     "addtoHideoutPosterSlots": false,
 
@@ -75,9 +77,6 @@
 
     "addtoStaticAmmo": false,
 
-    "CanSellOnRagfair": false,
-    
-    "CanRequireOnRagfair": false,
 
     "addtoBots": false,
 
@@ -91,7 +90,7 @@
 
     "modSlot": [""],
 
-    "addtoHallOfFame": true,
+    "addtoHallOfFame": false,
     "hallOfFameSlots": [
       "smallTrophies"
     ],
@@ -105,23 +104,24 @@
     ],
 
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-    
     "addtoStaticLootContainers": false,
-    "staticLootContainers": [
-      {
-        "containerName": "",
-        "probability": 15 
-      }
-    ],
-
+    "staticLootContainers": [],
     "addtoSecureFilters": false,
 
-    "addtoTraders": false
+    "addtoTraders": false,
 
+    "traders": {
+          },
+          "barters": [
+            {
+              "count": 0,
+              "_tpl": "0" 
+        
+            }
+          ]
   }
 }
