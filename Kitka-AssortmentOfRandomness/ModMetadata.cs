@@ -8,12 +8,12 @@ namespace KitkaAssortmentOfRandomness;
 [UsedImplicitly]
 public record ModMetadata : IModMetadata
 {
-    public string ModGuid { get; init; } = "com.kitka.aassortmentofrandomness";
+    public string ModGuid { get; init; } = "com.kitka.assortmentofrandomness";
     public string Name { get; init; } = "Kitka Assortment Of Randomness";
     public string Author { get; init; } = "Kitka";
     public List<string>? Contributors { get; init; } = null;
     public Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version!.ToString(3));
-    public Range SptVersion { get; init; } = new("~4.1.5");
+    public Range SptVersion { get; init; } = new("~4.1.6");
     public bool HasPrepatcher { get; init; } = false;
     public List<string>? Incompatibilities { get; init; }
 
